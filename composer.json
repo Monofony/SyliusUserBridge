@@ -4,13 +4,14 @@
     "description": "Monofony Sylius User Bridge",
     "license": "MIT",
     "require": {
-        "php": "^8.0",
-        "monofony/core-contracts": "^0.8",
-        "monofony/user-bundle": "^1.10",
+        "php": "^8.1",
+        "monofony/core-contracts": "^0.10@alpha",
+        "sylius/user": "^1.12",
+        "sylius/user-bundle": "^1.12",
         "monofony/customer": "^1.10"
     },
     "require-dev": {
-        "phpstan/phpstan": "^0.12"
+        "phpstan/phpstan": "^1.5"
     },
     "autoload": {
         "psr-4": {
@@ -36,7 +37,7 @@
     ],
     "extra": {
         "branch-alias": {
-            "dev-master": "0.8-dev"
+            "dev-master": "0.10-dev"
         }
     }
 }
